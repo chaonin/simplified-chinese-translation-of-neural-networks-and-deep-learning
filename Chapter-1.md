@@ -362,7 +362,7 @@ $$
 $$
 这使得我们可以通过计算随机选取的mini-batch的梯度来估计全局梯度。
 
-为了和神经网络建立起联系，我们用 $w_k$ 和 $b_l​$ 来表示权值和biases。随机梯度下降算法随机地选取训练输入中的mini-batch，然后根据下面的规则来训练：
+为了和神经网络建立起联系，我们用 $w_k$ 和 $b_l$ 来表示权值和biases。随机梯度下降算法随机地选取训练输入中的mini-batch，然后根据下面的规则来训练：
 $$
 \begin{aligned}
 w_k \rarr w_k' = w_k &- \frac {\eta}{m} \sum_j \frac {\partial C_{X_j}}{\partial w_k} \\ 
